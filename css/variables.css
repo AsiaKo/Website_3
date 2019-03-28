@@ -1,0 +1,24 @@
+/* VARIABLES-COLORS */
+
+:root{
+
+--medium-pale-lavender: #DCCCFF;
+--color-tyrian-purple: #420039;
+--color-mulbery:#C44798;
+--color-orchid:#E07BE0;
+--color-magnolia:#F8F5FF;
+
+/* VARIABLES-FONTS */
+--font-family: "Lato", sans-serif;
+--font-weight-body: 400;
+--line-height: 1.7;
+--default-font-size: 1.6rem;
+--font-size: calc(15px + .1vmin);
+--display-font-size: calc(15px + 5vw);
+--h1-font-size:calc(15px + 1.2vmin);
+--h2-font-size:calc(15px + 2vw);
+--h3-font-size:calc(15px + .4vw);
+--p-font-size:calc(15px + .2vw);
+
+
+}

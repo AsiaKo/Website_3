@@ -1,0 +1,20 @@
+.section-about {
+	background-color: var(--color-magnolia);
+	padding:13em 0;
+	margin-top:-15vh;
+}
+
+.row {
+	display: flex;
+}
+
+.col-text {
+	width: 45%;
+	height: 100%;
+	padding-left: 5vw;
+}
+
+.col-image {
+	width:55%;
+	/*float: right;*/
+}
