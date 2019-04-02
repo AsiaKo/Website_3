@@ -8,10 +8,10 @@
 	rgba(224,123,224, .1)),
 	url(https://images.unsplash.com/photo-1454262041357-5d96f50a2f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60);
 	background-size: cover;
-	transform: skewY(-3deg);
+	transform: skewY(-5deg);
 }
 
 .section-features > * {
-	transform: skewY(3deg);
+	transform: skewY(5deg);
 
 }

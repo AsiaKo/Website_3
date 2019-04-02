@@ -45,19 +45,14 @@ color:#777;
 	display: inline-block;
 	text-transform: uppercase;
 	font-weight: 400;
-	background-image: linear-gradient(to right, var(--color-orchid), var(--color-mulbery));
+	/*background-image: linear-gradient(to right, var(--color-orchid), var(--color-mulbery));*/
+	background-image: linear-gradient(to right, var(--color-cherryblossom), var(--color-watermelon));
 	-webkit-background-clip: text;
 	color: transparent;
 	letter-spacing: 2px;
 	transition: all.2s;	
 	font-size: var(--h2-font-size);
 }
-
-/*HOVER ANIMATION*/
-/*.heading-secondary:hover {
-	transform:skewY(20deg) scale(1.1);
-}
-*/
 
 
 .heading-tertiary {
