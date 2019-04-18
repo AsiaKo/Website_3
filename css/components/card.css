@@ -59,14 +59,12 @@
 }
 
 .card__picture--1 {
-	/*background-image: linear-gradient(to right bottom, var(--color-pink), var(--color-red)),*/
-	
 	background-image: linear-gradient(to right bottom, #F9EFA3, #F1D302),
 	url("https://images.unsplash.com/photo-1548110579-405ee7448814?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");	
 }
 
 .card__picture--2 {
-	background-image: linear-gradient(to right bottom, #98DDDE, #F66C7F),
+	background-image: linear-gradient(to right bottom, #FABCC4, #F66C7F),
 	url("https://images.unsplash.com/photo-1548110579-405ee7448814?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");	
 }
 
