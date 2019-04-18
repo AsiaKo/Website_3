@@ -7,16 +7,43 @@
 --color-mulbery:#C44798;
 --color-orchid:#E07BE0;
 --color-magnolia:#F8F5FF;
+--color-magic-mint:#A5F8D3; 
+/*rgb(165,248,211 )*/
+--color-bright-turquoise:#12EAEA;
+--color-jun-bud:#B0DB43;
+--color-red:#F11937;
+--color-pink :#FBC0C8;
+
+/*grays*/
+--color-gray-dark: #333;
+--color-gray-medium: #777;
+--color-gray-light: #eee;
+
+
+--color-watermelon:#F66C7F;
+/*rgb(246, 108, 127)*/
+--color-cherryblossom:#FABCC4;
+
+/*PANTONE COLORS 2019*/
+--living-coral:#FF6F61;
+--mauvewood:#A75D67;
+--conch-shell:#FC8F9B;
+--hot-pink:#E55982;
+--vibrant-yellow:#FFDA29;
+--limpet-shell:#98DDDE;
+
 
 /* VARIABLES-FONTS */
 --font-family: "Lato", sans-serif;
+/*--font-family: "Audrey", sans-serif;
+*//*--font-family: "Sofia Pro", sans-serif;*/
 --font-weight-body: 400;
 --line-height: 1.7;
 --default-font-size: 1.6rem;
 --font-size: calc(15px + .1vmin);
 --display-font-size: calc(15px + 3vw);
 --h1-font-size:calc(15px + 3.1vmin);
---h2-font-size:calc(15px + 3vmin);
+--h2-font-size:calc(15px + 2.2vmin);
 --h3-font-size:calc(15px + .3vw);
 --p-font-size:calc(15px + .2vw);
 
@@ -31,3 +58,5 @@
 --col-2-of-4: calc((var(--col-1-of-4) * 2) + var(--gutter-horizontal));
 --col-3-of-4: calc((var(--col-1-of-4) * 3) + (var(--gutter-horizontal)) * 2);
 }
+
+

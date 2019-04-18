@@ -1,0 +1,64 @@
+.section-about {
+	background-color: var(--color-magnolia);
+	padding:30rem 0;
+	margin-top:-20vh;
+}
+
+.section-features{
+	padding:20rem 0;
+	margin-top:-20rem;
+	background-image:
+	linear-gradient(
+	to right bottom, 
+	rgba(196,71,152, .7) , 
+	rgba(224,123,224, .1)),
+	url(https://images.unsplash.com/photo-1454262041357-5d96f50a2f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60);
+	background-size: cover;
+	transform: skewY(-5deg);
+}
+
+.section-features > * {
+	transform: skewY(5deg);
+}
+
+.section-services {
+	background-color: var(--color-magnolia);
+	padding:25rem 0 15rem 0;
+	margin-top: -7rem;
+}
+
+.section-testimonials {
+	position: relative;
+	padding: 15rem 0;
+	width: 100%;
+	height: 100%;
+}
+
+.section-booking {
+	padding: 15rem 0;
+	background-image: linear-gradient(to right bottom, #F66C7F, #FABCC4);
+}
+
+.booking-box {
+	background-image:linear-gradient(100deg, 
+		rgba(255, 255, 255, .8) 0%,
+		rgba(255, 255, 255, .8) 50%,
+		transparent 50%), 
+	    url(https://images.unsplash.com/photo-1548110579-405ee7448814?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+
+	background-size: cover;
+	border-radius: 3px;
+	box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.4);
+	height: 50rem;
+	width: 90%;
+    margin: 0 auto;
+}
+
+.booking__form {
+	width:50%;
+	padding: 6rem;
+}
+
+
+
+

@@ -1,36 +1,51 @@
-.btn:link, .btn:visited {
-	text-transform: uppercase;
-	text-decoration: none;
-	padding: 1em 2em;
-	display: inline-block;
-	border-radius: 100px;
-	position: relative;
-	box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
-	transition: all 200ms;
+.btn, .btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2em;
+  display: inline-block;
+  border-radius: 100px;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  transition: all 200ms;
+
+  /*Change for the <button> element styling*/
+  border:none;
+  cursor: pointer;
+  font-size: inherit;
 }
 
 
 .btn:hover {
   color: var(--color-tyrian-purple);
+
 }
 
-.btn:active {
-	box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
+.btn:activ,  .btn:focus{
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
 }
 
 .btn-white {
-	background-color: #fff;
-	color: var(--color-mulbery);
+  background-color: #fff;
+  color: var(--color-mulbery);
 }
+
+.btn--pink  {
+  background-color: var(--color-mulbery);
+  color:#fff;
+} 
 
 
 .btn-white::after {
-	background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.btn-form {
+  color: var(--color-watermelon);
 }
 
 .btn-animated {
-	animation: moveInBottom .4s ease-out .9s;
-	animation-fill-mode: backwards;
+  animation: moveInBottom .4s ease-out .9s;
+  animation-fill-mode: backwards;
 }
 
 /*Create ripple effect*/
